@@ -18,6 +18,7 @@ coverage = 5
 
 
 def paint_calc(height, width, can_coverage):
+    """function that calculates the amount of paint needed to for a certain area"""
     num_cans = (height * width) / can_coverage
     round_up_num_cans = math.ceil(num_cans)
     print(f"You'll need {round_up_num_cans} cans of paint")
